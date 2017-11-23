@@ -2,13 +2,31 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
 </head>
 <body>
-<h1>
-</h1>
-<h2>
-</h2>
-<span></span>
+
+    <!--<form action="/users", method='POST'>-->
+        <!--학번:<br>-->
+        <!--<input type="text" name="student_id"><br>-->
+        <!--이름:<br>-->
+        <!--<input type="text" name="name"><br>-->
+        <!--직전학점:<br>-->
+        <!--<input type="text" name="last_grade"><br>-->
+        <!--수강강의:<br>-->
+        <!--<input type="text" name="lectures"><br>-->
+        <!--친구:<br>-->
+        <!--<input type="text" name="friends"><br>-->
+    <form action="/users", method='POST'>
+        학번:<br>
+        <input type="text" name="student_id"><br>
+        비밀번호:<br>
+        <input type="password" name="password"><br>
+        <button type="POST">가져오기</button><br>
+    </form>
+    <div>
+        <ul id = 'temp'>
+
+        </ul>
+    </div>
 </body>
 </html>
